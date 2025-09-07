@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['exit', 'lit_exit_sign', 'unlit_exit_sign']
+
+roboflow:
+  workspace: kcw-xuoju
+  project: exit-sign-niflv-xfgxm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kcw-xuoju/exit-sign-niflv-xfgxm/dataset/1
